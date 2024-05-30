@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     color: black;
-    background: #ffefb7;
+    background: var(--yellow);
 }
 
 .heading {

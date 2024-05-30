@@ -36,6 +36,98 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    /* Colours */
+    --yellow: #fdc435;
+    --black: #25282b;
+
+    /* Typography */
+    --h1-desktop: 56px/64px "Comfortaa", "Roboto", sans-serif;
+    --h1-tablet: 40px/48px "Comfortaa", "Roboto", sans-serif;
+    --h1-mobile: 32px/40px "Comfortaa", "Roboto", sans-serif;
+
+    --h2-desktop: 32px/40px "Comfortaa", "Roboto", sans-serif;
+    --h2-tablet: 32px/40px "Comfortaa", "Roboto", sans-serif;
+    --h2-mobile: 32px/40px "Comfortaa", "Roboto", sans-serif;
+
+    --h3-desktop: 24px/36px "Comfortaa", "Roboto", sans-serif;
+    --h3-tablet: 24px/36px "Comfortaa", "Roboto", sans-serif;
+    --h3-mobile: 18px/24px "Comfortaa", "Roboto", sans-serif;
+
+    --h4-desktop: 20px/28px "Comfortaa", "Roboto", sans-serif;
+    --h4-tablet: 20px/28px "Comfortaa", "Roboto", sans-serif;
+    --h4-mobile: 16px/24px "Comfortaa", "Roboto", sans-serif;
+
+    --p-desktop: 16px/24px "Comfortaa", "Roboto", sans-serif;
+    --p-tablet: 16px/24px "Comfortaa", "Roboto", sans-serif;
+    --p-mobile: 14px/20px "Comfortaa", "Roboto", sans-serif;
+}
+
+/* Mobile Typography */
+h1 {
+    font: var(--h1-mobile);
+}
+
+h2 {
+    font: var(--h2-mobile);
+}
+
+h3 {
+    font: var(--h3-mobile);
+}
+
+h4 {
+    font: var(--h4-mobile);
+}
+
+p {
+    font: var(--p-mobile);
+}
+
+/* Tablet Typography */
+@media only screen and (min-width: 768px) {
+    h1 {
+        font: var(--h1-tablet);
+    }
+
+    h2 {
+        font: var(--h2-tablet);
+    }
+
+    h3 {
+        font: var(--h3-tablet);
+    }
+
+    h4 {
+        font: var(--h4-tablet);
+    }
+
+    p {
+        font: var(--p-tablet);
+    }
+}
+
+/* Desktop Typography */
+@media only screen and (min-width: 1024px) {
+    h1 {
+        font: var(--h1-desktop);
+    }
+
+    h2 {
+        font: var(--h2-desktop);
+    }
+
+    h3 {
+        font: var(--h3-desktop);
+    }
+
+    h4 {
+        font: var(--h4-desktop);
+    }
+
+    p {
+        font: var(--p-desktop);
+    }
 }
 
 @media (prefers-color-scheme: light) {
