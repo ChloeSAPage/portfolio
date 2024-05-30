@@ -8,8 +8,6 @@
 .navMenu {
     display: flex;
     list-style: none;
-    transition: transform 0.3s ease;
-    border-bottom: 0.5px solid grey;
     padding: 0;
     gap: 5rem;
 }
@@ -22,20 +20,16 @@
 .navMenu a:hover {
     color: black;
     text-decoration: none;
-    border-bottom: 3px solid black;
-    padding-bottom: 5px;
-    transition: border-bottom-color 1s ease;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.473);
 }
 
 .hamburger {
     display: none;
-    cursor: pointer;
 }
 
 .activeLink {
-    border-bottom: 3px solid blue;
-    padding-bottom: 5px;
-    transition: border-bottom-color 0.3s ease;
+    border-bottom: 3px solid black;
+    transition: border-bottom-color 1s ease;
 }
 
 /* Hide hamburger menu on mobile */
@@ -61,12 +55,12 @@
     .navMenu a {
         color: black;
         text-decoration: none;
-        line-height: 3rem;
+        line-height: 2rem;
     }
 
     .navMenu a:hover {
         text-decoration: none;
-        line-height: 3.5rem;
+        line-height: 2rem;
     }
 
     .active {
@@ -77,9 +71,5 @@
 
     .hamburger {
         display: block;
-    }
-
-    .activeLink {
-        color: var(--purple);
     }
 }
