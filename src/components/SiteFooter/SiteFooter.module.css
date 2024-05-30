@@ -1,9 +1,15 @@
 .wrapper {
-    padding: 1rem;
-    border: 1px solid lightgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background: grey;
+    color: black;
+}
+
+.content {
+    color: black;
+    position: fixed;
+    bottom: 5rem;
+    z-index: 1;
+}
+
+.wave {
+    position: relative;
+    z-index: 0;
 }
