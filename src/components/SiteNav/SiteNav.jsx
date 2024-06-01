@@ -18,7 +18,7 @@ function SiteNav() {
 
     return (
         <div className={styles.wrapper}>
-            <h1 className={styles.heading}>Chloe Page</h1>
+            <h2>Chloe Page</h2>
             <nav
                 className={
                     click

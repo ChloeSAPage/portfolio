@@ -13,12 +13,12 @@
 }
 
 .navMenu a {
-    color: black;
+    color: var(--black);
     text-decoration: none;
 }
 
 .navMenu a:hover {
-    color: black;
+    color: var(--black);
     text-decoration: none;
     border-bottom: 3px solid rgba(0, 0, 0, 0.473);
 }
@@ -28,7 +28,7 @@
 }
 
 .activeLink {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid var(--black);
     transition: border-bottom-color 1s ease;
 }
 
@@ -47,13 +47,13 @@
         top: 10rem;
         height: 38%;
         background-color: white;
-        box-shadow: 2px 2px 20px grey;
+        box-shadow: 2px 2px 20px var(--grey);
         border-radius: 5%;
         gap: 0.7rem;
     }
 
     .navMenu a {
-        color: black;
+        color: var(--black);
         text-decoration: none;
         line-height: 2rem;
     }

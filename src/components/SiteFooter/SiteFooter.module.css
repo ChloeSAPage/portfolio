@@ -1,9 +1,21 @@
 .wrapper {
-    padding: 1rem;
-    border: 1px solid lightgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background: grey;
+    color: var(--black);
+}
+
+.content {
+    color: var(--black);
+    position: absolute;
+    bottom: 2.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0rem;
+    z-index: 0;
 }

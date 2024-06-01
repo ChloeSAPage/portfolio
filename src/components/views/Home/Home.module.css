@@ -1,4 +1,12 @@
 .wrapper {
-    background: white;
+    background: var(--white);
     width: 100%;
+    color: var(--black);
+    text-align: center;
+}
+
+.tagline {
+    color: var(--yellow);
+    margin-bottom: 0;
+    font-weight: bolder;
 }
