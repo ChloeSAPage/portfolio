@@ -39,8 +39,10 @@ body {
 
     /* Colours */
     --yellow: #fdc435;
+    --light-yellow: #f7d37a;
     --black: #25282b;
     --grey: #7d7d7d;
+    --light-grey: #d1d1d1;
     --white: white;
 
     /* Typography */

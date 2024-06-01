@@ -8,3 +8,8 @@
     margin: 1rem;
     box-shadow: 2px 2px 2px var(--grey);
 }
+
+.button:hover {
+    cursor: pointer;
+    background-color: var(--light-grey);
+}
