@@ -1,0 +1,15 @@
+[
+    {
+        "id": "",
+        "projectName": "RatBot",
+        "description": "A discord bot that retrieves data from RatAPI to send users cute rat images and facts",
+        "githubLink": "https://github.com/ChloeSAPage/rat-bot",
+        "image": "public/images/ratbot.png"
+    },
+    {
+        "projectName": "RatAPI",
+        "description": "A discord bot",
+        "githubLink": "https://github.com/ChloeSAPage/rat-API",
+        "image": "public/images/ratapi.png"
+    }
+]
