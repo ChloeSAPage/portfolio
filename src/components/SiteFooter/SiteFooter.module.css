@@ -4,12 +4,18 @@
 
 .content {
     color: black;
-    position: fixed;
-    bottom: 5rem;
+    position: absolute;
+    bottom: 2.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     z-index: 1;
 }
 
 .wave {
-    position: relative;
+    position: absolute;
+    bottom: 0rem;
     z-index: 0;
 }
