@@ -1,9 +1,9 @@
 .wrapper {
-    color: black;
+    color: var(--black);
 }
 
 .content {
-    color: black;
+    color: var(--black);
     position: absolute;
     bottom: 2.5rem;
     text-align: center;
