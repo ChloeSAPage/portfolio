@@ -3,7 +3,7 @@
         "projectName": "RatBot",
         "description": "A discord bot that retrieves data from RatAPI to send users cute rat images and facts",
         "githubLink": "https://github.com/ChloeSAPage/rat-bot",
-        "image": "public/images/ratbot.png",
+        "image": "public/images/ratbot2.png",
         "languages": "Python",
         "libraries": ""
     },

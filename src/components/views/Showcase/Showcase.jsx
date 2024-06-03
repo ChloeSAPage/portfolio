@@ -19,7 +19,9 @@ function Showcase() {
 
     return (
         <div className={styles.wrapper}>
-            <h2 className={styles.center}>Showcase</h2>
+            <h2 className={styles.title}>
+                S<span className={styles.underline}>howcas</span>e
+            </h2>
             {projects}
         </div>
     );

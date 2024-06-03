@@ -27,7 +27,7 @@ function ProjectCard({
                 <p>Languages: {languages}</p>
                 <p>{libraries === "" ? "" : `Libraries: ${libraries}`}</p>
                 {index % 2 === 0 ? (
-                    <YellowButton text="GitHub" onClick={() => handleClick()} />
+                    <YellowButton className={styles.yellowButton} text="GitHub" onClick={() => handleClick()} />
                 ) : (
                     <WhiteButton text="GitHub" onClick={() => handleClick()} />
                 )}

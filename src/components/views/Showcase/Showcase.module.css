@@ -2,6 +2,10 @@
     color: var(--black);
 }
 
-.center {
+.title {
     text-align: center;
+}
+
+.underline {
+    border-bottom: 2px solid var(--yellow);
 }
