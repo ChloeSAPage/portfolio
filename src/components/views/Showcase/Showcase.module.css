@@ -1,3 +1,7 @@
 .wrapper {
     color: var(--black);
 }
+
+.center {
+    text-align: center;
+}
