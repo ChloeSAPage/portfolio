@@ -43,7 +43,8 @@ body {
     --black: #25282b;
     --grey: #7d7d7d;
     --light-grey: #d1d1d1;
-    --white: white;
+    --white: #ffffff;
+    --offWhite: #f9faff;
 
     /* Typography */
     --h1-desktop: 56px/64px "Comfortaa", "Roboto", sans-serif;
