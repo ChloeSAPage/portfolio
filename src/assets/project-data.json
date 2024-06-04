@@ -1,7 +1,7 @@
 [
     {
         "projectName": "RatBot",
-        "description": "A discord bot that retrieves data from RatAPI to send users cute rat images and facts",
+        "description": "A discord bot that retrieves data from RatAPI to send users cute rat images and facts.",
         "githubLink": "https://github.com/ChloeSAPage/rat-bot",
         "link": "",
         "image": "images/ratbot2.png",
@@ -10,7 +10,7 @@
     },
     {
         "projectName": "RatAPI",
-        "description": "An API that allows users to retrieve images of rats or facts about rats",
+        "description": "An API that allows users to retrieve images of rats or facts about rats.",
         "githubLink": "https://github.com/ChloeSAPage/rat-API",
         "link": "",
         "image": "images/ratapi.png",
@@ -37,7 +37,7 @@
     },
     {
         "projectName": "AI Cooking Assistant",
-        "description": "Second group project of Technative Academy, which utilises React-Redux to create API calls to ChatGPT. My role included handling the API calls using redux thunk and styling the ask and home page",
+        "description": "Second group project of Technative Academy, which utilises React-Redux to create API calls to ChatGPT. My role included handling the API calls using redux thunk and styling the ask and home page.",
         "githubLink": "https://github.com/ChloeSAPage/AI-Cooking-Assistant",
         "link": "https://ai-cooking-assistant.netlify.app",
         "image": "images/peelinggood.png",

@@ -27,7 +27,7 @@ function ProjectCard({
             }`}
         >
             <div className={styles.contentWrapper}>
-                <h3>{name}</h3>
+                <h2 className={styles.name}>{name}</h2>
                 <p>{description}</p>
                 <p>Languages: {languages}</p>
                 <p>{libraries === "" ? "" : `Libraries: ${libraries}`}</p>
@@ -35,12 +35,12 @@ function ProjectCard({
                     {index % 2 === 0 ? (
                         <YellowButton
                             className={styles.yellowButton}
-                            text="GitHub"
+                            text="View code"
                             onClick={() => goToGitHub()}
                         />
                     ) : (
                         <WhiteButton
-                            text="GitHub"
+                            text="View code"
                             onClick={() => goToGitHub()}
                         />
                     )}
