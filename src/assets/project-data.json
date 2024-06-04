@@ -3,7 +3,8 @@
         "projectName": "RatBot",
         "description": "A discord bot that retrieves data from RatAPI to send users cute rat images and facts",
         "githubLink": "https://github.com/ChloeSAPage/rat-bot",
-        "image": "public/images/ratbot2.png",
+        "link": "",
+        "image": "images/ratbot2.png",
         "languages": "Python",
         "libraries": ""
     },
@@ -11,7 +12,8 @@
         "projectName": "RatAPI",
         "description": "An API that allows users to retrieve images of rats or facts about rats",
         "githubLink": "https://github.com/ChloeSAPage/rat-API",
-        "image": "public/images/ratapi.png",
+        "link": "",
+        "image": "images/ratapi.png",
         "languages": "Python",
         "libraries": "Flask"
     },
@@ -19,7 +21,8 @@
         "projectName": "RecipeAPI",
         "description": "A CLI app that allows you to interact with and modify a MySQL cookbook database using an API.",
         "githubLink": "https://github.com/ChloeSAPage/recipe-API",
-        "image": "public/images/recipeapi.png",
+        "link": "",
+        "image": "images/recipeapi.png",
         "languages": "Python",
         "libraries": "Flask"
     },
@@ -27,7 +30,8 @@
         "projectName": "PeelingGood",
         "description": "First group project completed for TechNative Academy. Website using vanilla HTML, CSS and JS. My role was to create the index page.",
         "githubLink": "https://github.com/ChloeSAPage/peeling-good",
-        "image": "public/images/peelinggood.png",
+        "link": "https://chloesapage.github.io/peeling-good/",
+        "image": "images/peelinggood.png",
         "languages": "HTML, CSS, JavaScript",
         "libraries": ""
     },
@@ -35,7 +39,8 @@
         "projectName": "AI Cooking Assistant",
         "description": "Second group project of Technative Academy, which utilises React-Redux to create API calls to ChatGPT. My role included handling the API calls using redux thunk and styling the ask and home page",
         "githubLink": "https://github.com/ChloeSAPage/AI-Cooking-Assistant",
-        "image": "public/images/peelinggood.png",
+        "link": "https://ai-cooking-assistant.netlify.app",
+        "image": "images/peelinggood.png",
         "languages": "JavaScript",
         "libraries": "React, Redux"
     }

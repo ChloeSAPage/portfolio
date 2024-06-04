@@ -26,9 +26,11 @@ function Home() {
                 I'm a Junior Developer, with a background in microbiology. I
                 like making things.
             </p>
-            <YellowButton onClick={() => goToProjects()} text="Showcase" />
-            <WhiteButton onClick={() => goToLinkedIn()} text="LinkedIn" />
-            <YellowButton onClick={() => goToGitHub()} text="GitHub" />
+            <div className={styles.buttonContainer}>
+                <YellowButton onClick={() => goToProjects()} text="Showcase" />
+                <WhiteButton onClick={() => goToLinkedIn()} text="LinkedIn" />
+                <YellowButton onClick={() => goToGitHub()} text="GitHub" />
+            </div>
         </div>
     );
 }

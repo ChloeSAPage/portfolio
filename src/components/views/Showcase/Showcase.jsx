@@ -10,6 +10,7 @@ function Showcase() {
                 name={item.projectName}
                 description={item.description}
                 githubLink={item.githubLink}
+                link={item.link}
                 image={item.image}
                 languages={item.languages}
                 libraries={item.libraries}

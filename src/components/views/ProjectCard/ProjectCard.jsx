@@ -6,13 +6,18 @@ function ProjectCard({
     name,
     description,
     githubLink,
+    link,
     image,
     languages,
     libraries,
     index,
 }) {
-    const handleClick = () => {
+    const goToGitHub = () => {
         window.open(githubLink);
+    };
+
+    const goToProject = () => {
+        window.open(link);
     };
 
     return (
@@ -26,11 +31,34 @@ function ProjectCard({
                 <p>{description}</p>
                 <p>Languages: {languages}</p>
                 <p>{libraries === "" ? "" : `Libraries: ${libraries}`}</p>
-                {index % 2 === 0 ? (
-                    <YellowButton className={styles.yellowButton} text="GitHub" onClick={() => handleClick()} />
-                ) : (
-                    <WhiteButton text="GitHub" onClick={() => handleClick()} />
-                )}
+                <div className={styles.buttonContainer}>
+                    {index % 2 === 0 ? (
+                        <YellowButton
+                            className={styles.yellowButton}
+                            text="GitHub"
+                            onClick={() => goToGitHub()}
+                        />
+                    ) : (
+                        <WhiteButton
+                            text="GitHub"
+                            onClick={() => goToGitHub()}
+                        />
+                    )}
+                    {link === "" ? (
+                        ""
+                    ) : index % 2 === 0 ? (
+                        <WhiteButton
+                            text="View Project"
+                            onClick={() => goToProject()}
+                        />
+                    ) : (
+                        <YellowButton
+                            className={styles.yellowButton}
+                            text="View Project"
+                            onClick={() => goToProject()}
+                        />
+                    )}
+                </div>
             </div>
 
             <img

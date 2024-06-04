@@ -20,7 +20,7 @@
 .navMenu a:hover {
     color: var(--black);
     text-decoration: none;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.473);
+    border-bottom: 3px solid var(--grey);
 }
 
 .hamburger {
@@ -28,7 +28,7 @@
 }
 
 .activeLink {
-    border-bottom: 3px solid var(--black);
+    border-bottom: 3px solid var(--yellow);
     transition: border-bottom-color 1s ease;
 }
 
