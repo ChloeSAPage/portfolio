@@ -32,6 +32,19 @@ function Home() {
                 <WhiteButton onClick={() => goToLinkedIn()} text="LinkedIn" />
                 <YellowButton onClick={() => goToGitHub()} text="GitHub" />
             </div>
+
+            <h2 className={styles.aboutme}>
+                A<span className={styles.underline}>bout M</span>e
+            </h2>
+            <p>
+                I like playing video games (I've played League of Legends since
+                2014!) and watching Esports
+            </p>
+            <p>I love nature and I started birdwatching early 2024</p>
+            <p>I enjoy hiking</p>
+            <p>I like biology, specifically microbiology.</p>
+            <p>I love learning new things!</p>
+            <p>I like coding and problem solving</p>
         </div>
     );
 }
