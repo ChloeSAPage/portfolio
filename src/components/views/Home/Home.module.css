@@ -1,5 +1,5 @@
 .wrapper {
-    background: var(--white);
+    background-color: var(--offWhite);
     width: 100%;
     color: var(--black);
     text-align: center;
@@ -9,4 +9,19 @@
     color: var(--yellow);
     margin-bottom: 0;
     font-weight: bolder;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.aboutme {
+    margin-top: 4rem;
+}
+
+.underline {
+    border-bottom: 2px solid var(--yellow);
 }

@@ -39,9 +39,12 @@ body {
 
     /* Colours */
     --yellow: #fdc435;
+    --light-yellow: #f7d37a;
     --black: #25282b;
     --grey: #7d7d7d;
-    --white: white;
+    --light-grey: #d1d1d1;
+    --white: #ffffff;
+    --offWhite: #f9faff;
 
     /* Typography */
     --h1-desktop: 56px/64px "Comfortaa", "Roboto", sans-serif;
@@ -54,7 +57,7 @@ body {
 
     --h3-desktop: 24px/36px "Comfortaa", "Roboto", sans-serif;
     --h3-tablet: 24px/36px "Comfortaa", "Roboto", sans-serif;
-    --h3-mobile: 18px/24px "Comfortaa", "Roboto", sans-serif;
+    --h3-mobile: 20px/24px "Comfortaa", "Roboto", sans-serif;
 
     --h4-desktop: 20px/28px "Comfortaa", "Roboto", sans-serif;
     --h4-tablet: 20px/28px "Comfortaa", "Roboto", sans-serif;
