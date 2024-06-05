@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import WhiteButton from "../../reusable/WhiteButton/WhiteButton";
-import YellowButton from "../../reusable/YellowButton/YellowButton";
+import YellowButton from "../../reusable/YellowButton/YellowButton.jsx";
+import WhiteButton from "../../reusable/WhiteButton/WhiteButton.jsx";
 import styles from "./Home.module.css";
 
 function Home() {
+
     const navigate = useNavigate();
 
     const goToProjects = () => {
