@@ -1,6 +1,6 @@
 import styles from "./ProjectCard.module.css";
-import YellowButton from "../../reusable/YellowButton/YellowButton.jsx";
-import WhiteButton from "../../reusable/WhiteButton/WhiteButton.jsx";
+import YellowButton from "../../Reusable/YellowButton/YellowButton";
+import WhiteButton from "../../Reusable/WhiteButton/WhiteButton";
 
 function ProjectCard({
     name,
