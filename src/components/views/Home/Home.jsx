@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import YellowButton from "../../Reusable/YellowButton/YellowButton";
 import WhiteButton from "../../Reusable/WhiteButton/WhiteButton";
-
 import styles from "./Home.module.css";
 
 function Home() {

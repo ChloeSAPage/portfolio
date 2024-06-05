@@ -1,5 +1,6 @@
 .wrapper {
     color: var(--black);
+    background-color: var(--offWhite);
 }
 
 .title {
