@@ -32,6 +32,15 @@
     gap: 1rem;
 }
 
+/* Tablet*/
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* Desktop */
 @media only screen and (min-width: 1024px) {
     .wrapper {
@@ -87,14 +96,5 @@
     .right .buttonContainer {
         display: flex;
         justify-content: flex-start;
-    }
-}
-
-/* Tablet */
-@media only screen and (min-width: 768px) {
-    .wrapper {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
