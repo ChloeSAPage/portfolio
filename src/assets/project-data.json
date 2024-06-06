@@ -6,7 +6,7 @@
         "link": "",
         "image": "images/ratbot2.png",
         "languages": "Python",
-        "libraries": ""
+        "libraries": "Discord.py"
     },
     {
         "projectName": "RatAPI",
