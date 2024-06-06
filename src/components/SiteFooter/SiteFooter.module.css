@@ -1,12 +1,31 @@
 .wrapper {
     color: var(--black);
-    background-color: var(--offWhite);
+    background-color: var(--off-white);
 }
 
 .content {
+    text-align: center;
+    position: relative;
+    top: 17vh;
+    z-index: 1;
+    font: 12px/18px "Comfortaa", "Roboto", sans-serif;
 }
 
 .wave {
     position: relative;
+    top: 10vh;
     z-index: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        top: 25vh;
+        font: 14px/18px "Comfortaa", "Roboto", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .content {
+        top: 30vh;
+    }
 }
