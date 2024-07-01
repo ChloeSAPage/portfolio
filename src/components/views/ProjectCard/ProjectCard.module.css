@@ -59,7 +59,7 @@
         max-height: auto;
         flex: 1;
         margin-top: 0;
-        object-fit: contain;
+        object-fit: cover;
     }
 
     .contentWrapper {
