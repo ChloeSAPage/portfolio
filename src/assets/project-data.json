@@ -4,7 +4,7 @@
         "description": "A discord bot that retrieves data from RatAPI to send users cute rat images and facts.",
         "githubLink": "https://github.com/ChloeSAPage/rat-bot",
         "link": "",
-        "image": "images/ratbot2.png",
+        "image": "images/ratbotcropped.png",
         "languages": "Python",
         "libraries": "Discord.py"
     },
@@ -31,7 +31,7 @@
         "description": "First group project completed for TechNative Academy. Website using vanilla HTML, CSS and JS. My role was to create the index page.",
         "githubLink": "https://github.com/ChloeSAPage/peeling-good",
         "link": "https://chloesapage.github.io/peeling-good/",
-        "image": "images/peelinggood.png",
+        "image": "images/peelinggoodcropped.png",
         "languages": "HTML, CSS, JavaScript",
         "libraries": ""
     },
