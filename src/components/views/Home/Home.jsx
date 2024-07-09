@@ -23,7 +23,6 @@ function Home() {
             <h4 className={styles.tagline}>Junior Web Developer</h4>
             <h1 className={styles.heading}>Hiya! My name is Chloe Page.</h1>
             <p>
-                Welcome to my WIP portfolio!
                 I'm a Junior Developer, with a background in microbiology. I
                 like making things.
             </p>
