@@ -1,12 +1,43 @@
 [
     {
+        "projectName": "PeelingGood",
+        "description": "First group project completed for TechNative Academy. Website using vanilla HTML, CSS and JS. My role was to create the index page.",
+        "githubLink": "https://github.com/ChloeSAPage/peeling-good",
+        "link": "https://chloesapage.github.io/peeling-good/",
+        "image": "images/peelinggoodcropped.png",
+        "languages": "HTML, CSS, JavaScript",
+        "libraries": "",
+        "tags": ["technative"]
+    },
+    {
+        "projectName": "AI Cooking Assistant",
+        "description": "Second group project of TechNative Academy, which utilises React-Redux to create API calls to ChatGPT. My role included handling the API calls using redux thunk and styling the ask and home page.",
+        "githubLink": "https://github.com/ChloeSAPage/AI-Cooking-Assistant",
+        "link": "https://ai-cooking-assistant.netlify.app",
+        "image": "images/aicookingassistant.png",
+        "languages": "JavaScript",
+        "libraries": "React, Redux",
+        "tags": ["technative"]
+    },
+    {
+        "projectName": "Show Us Your Contents",
+        "description": "Third group project of TechNative Academy, a full stack project where users can add a bags and its contents. The project was completed with a quad programming approach.",
+        "githubLink": "https://github.com/ChloeSAPage/AI-Cooking-Assistant",
+        "link": "https://ai-cooking-assistant.netlify.app",
+        "image": "images/showusyourcontents.png",
+        "languages": "JavaScript, CSS",
+        "libraries": "React, Redux, Express, Posgresql",
+        "tags": ["technative"]
+    },
+    {
         "projectName": "RatBot",
         "description": "A discord bot that retrieves data from RatAPI to send users cute rat images and facts.",
         "githubLink": "https://github.com/ChloeSAPage/rat-bot",
         "link": "",
-        "image": "images/ratbotcropped.png",
+        "image": "images/ratbot1.png",
         "languages": "Python",
-        "libraries": "Discord.py"
+        "libraries": "Discord.py",
+        "tags": ["personal"]
     },
     {
         "projectName": "RatAPI",
@@ -15,7 +46,8 @@
         "link": "",
         "image": "images/ratapi.png",
         "languages": "Python",
-        "libraries": "Flask"
+        "libraries": "Flask",
+        "tags": ["personal"]
     },
     {
         "projectName": "RecipeAPI",
@@ -24,24 +56,7 @@
         "link": "",
         "image": "images/recipeapi.png",
         "languages": "Python",
-        "libraries": "Flask"
-    },
-    {
-        "projectName": "PeelingGood",
-        "description": "First group project completed for TechNative Academy. Website using vanilla HTML, CSS and JS. My role was to create the index page.",
-        "githubLink": "https://github.com/ChloeSAPage/peeling-good",
-        "link": "https://chloesapage.github.io/peeling-good/",
-        "image": "images/peelinggoodcropped.png",
-        "languages": "HTML, CSS, JavaScript",
-        "libraries": ""
-    },
-    {
-        "projectName": "AI Cooking Assistant",
-        "description": "Second group project of Technative Academy, which utilises React-Redux to create API calls to ChatGPT. My role included handling the API calls using redux thunk and styling the ask and home page.",
-        "githubLink": "https://github.com/ChloeSAPage/AI-Cooking-Assistant",
-        "link": "https://ai-cooking-assistant.netlify.app",
-        "image": "images/peelinggood.png",
-        "languages": "JavaScript",
-        "libraries": "React, Redux"
+        "libraries": "Flask",
+        "tags": ["cfg"]
     }
 ]
