@@ -1,7 +1,5 @@
 import Root from "./components/Root/Root";
 import Home from "./components/views/Home/Home";
-import Showcase from "./components/views/Showcase/Showcase";
-import CV from "./components/views/CV/CV";
 
 const routes = [
     {
@@ -11,14 +9,6 @@ const routes = [
             {
                 path: "",
                 element: <Home />,
-            },
-            {
-                path: "showcase",
-                element: <Showcase />,
-            },
-            {
-                path: "cv",
-                element: <CV />,
             },
         ],
     },
