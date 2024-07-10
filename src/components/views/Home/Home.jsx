@@ -22,7 +22,6 @@ function Home() {
 
     return (
         <div className={styles.wrapper}>
-            <h4 className={styles.tagline}>Junior Web Developer</h4>
             <h1 className={styles.heading}>Hiya! My name is Chloe Page.</h1>
 
             <h2 className={styles.title}>
