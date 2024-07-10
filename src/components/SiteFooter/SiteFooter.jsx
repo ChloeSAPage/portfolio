@@ -1,13 +1,56 @@
 import { IconContext } from "react-icons";
 import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { IoLogoGithub } from "react-icons/io";
 import styles from "./SiteFooter.module.css";
 
 function SiteFooter() {
+    const goToLinkedIn = () => {
+        window.open("https://www.linkedin.com/in/chloesapage/");
+    };
+
+    const goToGitHub = () => {
+        window.open("https://github.com/ChloeSAPage");
+    };
+
+    const email = "chloesapagepersonal@gmail.com";
+    const subject = "Hello!";
+    const body = "Hi Chloe, I just saw your portfolio!";
+
     return (
         <div className={styles.wrapper}>
-            <IconContext.Provider value={{ className: styles.icons, size: "1.5em"}}>
-                <FaLinkedin />
-            </IconContext.Provider>
+            <div className={styles.iconWrapper}>
+                <IconContext.Provider
+                    value={{
+                        className: styles.icons,
+                        size: "1.5em",
+                        color: "black",
+                    }}
+                >
+                    <button
+                        className={styles.iconButton}
+                        onClick={() => goToLinkedIn()}
+                    >
+                        <FaLinkedin />
+                    </button>
+                    <button className={styles.iconButton}>
+                        <a
+                            className={styles.iconLink}
+                            href={`mailto:${email}?subject=${encodeURIComponent(
+                                subject
+                            )}&body=${encodeURIComponent(body)}`}
+                        >
+                            <MdEmail />
+                        </a>
+                    </button>
+                    <button
+                        className={styles.iconButton}
+                        onClick={() => goToGitHub()}
+                    >
+                        <IoLogoGithub />
+                    </button>
+                </IconContext.Provider>
+            </div>
             <p className={styles.content}>Chloe Page 2024</p>
             <svg
                 className={styles.wave}
