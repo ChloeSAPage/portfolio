@@ -27,7 +27,7 @@ function Home() {
                 like making things.
             </p>
             <div className={styles.buttonContainer}>
-                <YellowButton onClick={() => goToProjects()} text="Showcase" />
+                <YellowButton onClick={() => goToProjects()} text="Projects" />
                 <WhiteButton onClick={() => goToLinkedIn()} text="LinkedIn" />
                 <YellowButton onClick={() => goToGitHub()} text="GitHub" />
             </div>

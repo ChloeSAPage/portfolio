@@ -17,15 +17,44 @@
     z-index: 0;
 }
 
+.iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    top: 17vh;
+    z-index: 1;
+}
+
+.iconButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.iconButton:focus {
+    outline: none;
+}
+
 @media only screen and (min-width: 1024px) {
     .content {
         top: 25vh;
         font: 14px/18px "Comfortaa", "Roboto", sans-serif;
     }
+
+    .iconWrapper {
+        top: 25vh;
+    }
 }
 
 @media only screen and (min-width: 1700px) {
     .content {
+        top: 30vh;
+    }
+
+    .iconWrapper {
         top: 30vh;
     }
 }
