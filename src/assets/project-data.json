@@ -5,8 +5,8 @@
         "githubLink": "https://github.com/ChloeSAPage/show-us-your-contents-backend",
         "link": "https://showusyourcontents.netlify.app/",
         "image": "images/showusyourcontents.png",
-        "languages": "JavaScript, CSS",
-        "libraries": "React, Redux, Express, Posgresql",
+        "languages": "JavaScript, CSS, Posgresql",
+        "libraries": "React, Redux, Express",
         "tags": ["technative"]
     },
     {
