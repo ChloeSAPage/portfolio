@@ -18,9 +18,13 @@
 }
 
 .aboutme {
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .underline {
     border-bottom: 2px solid var(--yellow);
+}
+
+.title {
+    margin-top: 3rem;
 }
