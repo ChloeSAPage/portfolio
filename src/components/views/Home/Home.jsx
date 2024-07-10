@@ -36,9 +36,6 @@ function Home() {
             <p>
                 <MdEmail /> chloesapagepersonal@gmail.com
             </p>
-            <p>
-                <FaPhoneAlt /> 07828124910
-            </p>
             <h2 className={styles.title}>
                 A<span className={styles.underline}>bout M</span>e
             </h2>
