@@ -25,10 +25,24 @@ function Home() {
         <div className={styles.wrapper}>
             <h4 className={styles.tagline}>Junior Web Developer</h4>
             <h1 className={styles.heading}>Hiya! My name is Chloe Page.</h1>
+
+            <h2 className={styles.title}>
+                A<span className={styles.underline}>bout M</span>e
+            </h2>
             <p>
                 I'm a Junior Developer, with a background in microbiology. I
                 like making things.
             </p>
+            <p>
+                I like playing video games (I've played League of Legends since
+                2014!) and watching E-sports
+            </p>
+            <p>I love nature and I started birdwatching early 2024</p>
+            <p>I enjoy hiking</p>
+            <p>I like biology, specifically microbiology.</p>
+            <p>I love learning new things!</p>
+            <p>I like coding and problem solving</p>
+
             <h2 className={styles.title}>
                 C<span className={styles.underline}>ontact M</span>e
             </h2>
@@ -36,18 +50,6 @@ function Home() {
             <p>
                 <MdEmail /> chloesapagepersonal@gmail.com
             </p>
-            <h2 className={styles.title}>
-                A<span className={styles.underline}>bout M</span>e
-            </h2>
-            <p>
-                I like playing video games (I've played League of Legends since
-                2014!) and watching Esports
-            </p>
-            <p>I love nature and I started birdwatching early 2024</p>
-            <p>I enjoy hiking</p>
-            <p>I like biology, specifically microbiology.</p>
-            <p>I love learning new things!</p>
-            <p>I like coding and problem solving</p>
 
             <h2 className={styles.title}>
                 P<span className={styles.underline}>roject</span>s
