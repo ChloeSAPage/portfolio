@@ -1,7 +1,6 @@
 import projectData from "../../../assets/project-data.json";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import { MdEmail } from "react-icons/md";
-import { FaPhoneAlt } from "react-icons/fa";
 import styles from "./Home.module.css";
 
 function Home() {
