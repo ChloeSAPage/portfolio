@@ -7,8 +7,7 @@ import { FaTimes } from "react-icons/fa";
 function SiteNav() {
     const navLinks = [
         { label: "Home", url: "/" },
-        { label: "Showcase", url: "/showcase" },
-        { label: "CV", url: "/cv" },
+        { label: "Showcase", url: "/showcase" }
     ];
 
     const [click, setClick] = useState(false);
