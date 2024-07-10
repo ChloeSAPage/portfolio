@@ -1,8 +1,13 @@
+import { IconContext } from "react-icons";
+import { FaLinkedin } from "react-icons/fa";
 import styles from "./SiteFooter.module.css";
 
 function SiteFooter() {
     return (
         <div className={styles.wrapper}>
+            <IconContext.Provider value={{ className: styles.icons, size: "1.5em"}}>
+                <FaLinkedin />
+            </IconContext.Provider>
             <p className={styles.content}>Chloe Page 2024</p>
             <svg
                 className={styles.wave}
