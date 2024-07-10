@@ -22,8 +22,8 @@
     {
         "projectName": "Show Us Your Contents",
         "description": "Third group project of TechNative Academy, a full stack project where users can add a bags and its contents. The project was completed with a quad programming approach.",
-        "githubLink": "https://github.com/ChloeSAPage/AI-Cooking-Assistant",
-        "link": "https://ai-cooking-assistant.netlify.app",
+        "githubLink": "https://github.com/ChloeSAPage/show-us-your-contents-backend",
+        "link": "https://showusyourcontents.netlify.app/",
         "image": "images/showusyourcontents.png",
         "languages": "JavaScript, CSS",
         "libraries": "React, Redux, Express, Posgresql",
