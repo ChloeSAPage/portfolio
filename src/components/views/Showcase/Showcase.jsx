@@ -7,6 +7,7 @@ function Showcase() {
         return (
             <ProjectCard
                 index={index}
+                key={item.projectName}
                 name={item.projectName}
                 description={item.description}
                 githubLink={item.githubLink}
