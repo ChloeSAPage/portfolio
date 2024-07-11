@@ -30,6 +30,56 @@
         "tags": ["technative"]
     },
     {
+        "projectName": "DogSpot",
+        "description": "A group full stack project created as part of the Code First Girls Degree. Delivered to a deadline. I was responsible for testing and implementing Yelp API integration and using Flask/Jinja to render information dynamically from the requests. Scored 84%.",
+        "githubLink": "https://github.com/ChloeSAPage/DogSpot",
+        "link": "",
+        "image": "images/dogspot.png",
+        "languages": "HTML, CSS, JavaScript, Python, MySQL",
+        "libraries": "Flask",
+        "tags": ["cfg"]
+    },
+    {
+        "projectName": "RecipeAPI",
+        "description": "A CLI app that allows you to interact with and modify a MySQL cookbook database using an API. Made for the CFG Degree, this project got 100%.",
+        "githubLink": "https://github.com/ChloeSAPage/recipe-API",
+        "link": "",
+        "image": "images/recipeapi.png",
+        "languages": "Python, MySQL",
+        "libraries": "Flask",
+        "tags": ["cfg"]
+    },
+    {
+        "projectName": "Poro Dress Up",
+        "description": "A cute web app inspired by flash dress up games. Dress up a poro from League Of Legends. Made for the Code First Girls Degree, this project got 100%.",
+        "githubLink": "https://github.com/ChloeSAPage/Poro-Dress-Up",
+        "link": "https://chloesapage.github.io/Poro-Dress-Up/",
+        "image": "images/porodressup.png",
+        "languages": "HTML, CSS, JavaScript",
+        "libraries": "",
+        "tags": ["cfg"]
+    },
+    {
+        "projectName": "Mallards",
+        "description": "My first attempt at using React during TechNative Academy, themed around mallards. It uses props, hooks (useEffect, useState), redux and https://random-d.uk/api.",
+        "githubLink": "https://github.com/ChloeSAPage/rat-bot",
+        "link": "https://mallards.netlify.app",
+        "image": "images/mallards.png",
+        "languages": "JavaScript, CSS",
+        "libraries": "React, Redux",
+        "tags": ["personal"]
+    },
+    {
+        "projectName": "Recipe2Shop",
+        "description": "The first website I created form scratch! Created as a final project for Code First Girls: Intro to Web Dev. Currently, only the front end has been created with plans to create a working meal planning web app. Watch this space!",
+        "githubLink": "https://github.com/ChloeSAPage/Recipe2Shop",
+        "link": "https://chloesapage.github.io/Recipe2Shop/index.html",
+        "image": "images/recipe2shop2.png",
+        "languages": "HTML, CSS, JavaScript",
+        "libraries": "Bootstrap",
+        "tags": [""]
+    },
+    {
         "projectName": "RatBot",
         "description": "A discord bot that retrieves data from RatAPI to send users cute rat images and facts.",
         "githubLink": "https://github.com/ChloeSAPage/rat-bot",
@@ -48,15 +98,5 @@
         "languages": "Python",
         "libraries": "Flask",
         "tags": ["personal"]
-    },
-    {
-        "projectName": "RecipeAPI",
-        "description": "A CLI app that allows you to interact with and modify a MySQL cookbook database using an API.",
-        "githubLink": "https://github.com/ChloeSAPage/recipe-API",
-        "link": "",
-        "image": "images/recipeapi.png",
-        "languages": "Python",
-        "libraries": "Flask",
-        "tags": ["cfg"]
     }
 ]
