@@ -2,6 +2,7 @@
     width: 100%;
     color: var(--black);
     text-align: center;
+    padding: 1rem
 }
 
 .tagline {
@@ -17,14 +18,10 @@
     gap: 2rem;
 }
 
-.aboutme {
-    margin-top: 3rem;
-}
-
 .underline {
     border-bottom: 2px solid var(--yellow);
 }
 
 .title {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
