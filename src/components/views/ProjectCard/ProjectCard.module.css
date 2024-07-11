@@ -35,7 +35,6 @@
 /* Tablet*/
 @media only screen and (min-width: 768px) {
     .wrapper {
-        width: 80%;
         margin-left: auto;
         margin-right: auto;
         max-width: 700px;
@@ -48,11 +47,10 @@
         display: flex;
         justify-content: center;
         gap: 5rem;
-        width: 80%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5rem;
-        max-width: 1000px;
+        max-width: 920px;
     }
 
     .image {
@@ -97,5 +95,11 @@
     .right .buttonContainer {
         display: flex;
         justify-content: flex-start;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+        max-width: 1024px;
     }
 }
