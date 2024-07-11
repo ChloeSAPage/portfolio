@@ -64,7 +64,7 @@ function ProjectCard({
             <img
                 className={styles.image}
                 src={image}
-                alt={`An image of Chloe's ${name} project`}
+                alt={`${name} project`}
             />
         </div>
     );
