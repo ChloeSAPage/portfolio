@@ -62,7 +62,7 @@
     {
         "projectName": "Mallards",
         "description": "My first attempt at using React during TechNative Academy, themed around mallards. It uses props, hooks (useEffect, useState), redux and https://random-d.uk/api.",
-        "githubLink": "https://github.com/ChloeSAPage/rat-bot",
+        "githubLink": "https://github.com/ChloeSAPage/technative-react-playground",
         "link": "https://mallards.netlify.app",
         "image": "images/mallards.png",
         "languages": "JavaScript, CSS",
@@ -71,7 +71,7 @@
     },
     {
         "projectName": "Recipe2Shop",
-        "description": "The first website I created form scratch! Created as a final project for Code First Girls: Intro to Web Dev. Currently, only the front end has been created with plans to create a working meal planning web app. Watch this space!",
+        "description": "The first website I created from scratch! Created as a final project for Code First Girls: Intro to Web Dev. Currently, only the front end has been created with plans to create a working meal planning web app. Watch this space!",
         "githubLink": "https://github.com/ChloeSAPage/Recipe2Shop",
         "link": "https://chloesapage.github.io/Recipe2Shop/index.html",
         "image": "images/recipe2shop2.png",
