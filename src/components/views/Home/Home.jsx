@@ -54,7 +54,7 @@ function Home() {
                     </p>
                     <img
                         src="images/technative-project3.jpg"
-                        alt=""
+                        alt="The TechNative Gang"
                         className={styles.image}
                     />
                 </div>
