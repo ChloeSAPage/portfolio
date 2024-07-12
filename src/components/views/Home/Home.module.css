@@ -6,10 +6,12 @@
     padding-right: 2rem;
 }
 
-.tagline {
-    color: var(--yellow);
-    margin-bottom: 0;
-    font-weight: bolder;
+.title {
+    margin-top: 5rem;
+}
+
+.underline {
+    border-bottom: 2px solid var(--yellow);
 }
 
 .button {
@@ -20,48 +22,9 @@
     color: var(--black);
 }
 
-.underline {
-    border-bottom: 2px solid var(--yellow);
-}
-
-.title {
-    margin-top: 5rem;
-}
-
-.headingfour {
-    font-weight: bolder;
-}
-
-.subheading {
-    margin-top: 2rem;
-}
-
-.image {
-    max-width: 90%;
-    margin: 0;
-}
-
 @media only screen and (min-width: 1024px) {
     .wrapper {
         padding-left: 6rem;
         padding-right: 6rem;
-    }
-
-    .skillsContainer {
-        display: flex;
-        gap: 3rem;
-    }
-
-    .technative {
-        width: 50%;
-    }
-
-    .cfg {
-        width: 50%;
-    }
-
-    .image {
-        max-width: 70%;
-        border-radius: 10px;
     }
 }

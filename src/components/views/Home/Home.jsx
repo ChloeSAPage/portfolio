@@ -6,7 +6,7 @@ import { useState } from "react";
 import AboutMe from "../../AboutMe/AboutMe";
 
 function Home() {
-    const [isClicked, setIsClicked] = useState(false)
+    const [isClicked, setIsClicked] = useState(false);
 
     const projects = projectData.map((item, index) => {
         return (
@@ -26,11 +26,11 @@ function Home() {
 
     const showAboutMe = () => {
         setIsClicked(!isClicked);
-    }
+    };
 
     return (
         <div className={styles.wrapper}>
-            <h1 className={styles.heading}>Hiya! My name is Chloe Page.</h1>
+            <h1>Hiya! My name is Chloe Page.</h1>
 
             <h2 className={styles.title}>
                 A<span className={styles.underline}>bout M</span>e
@@ -45,9 +45,19 @@ function Home() {
             </p>
 
             <button onClick={() => showAboutMe()} className={styles.button}>
-                <h3>
-                    R<span className={styles.underline}>ead More About M</span>e
-                </h3>
+                {isClicked ? (
+                    <h4>
+                        H<span className={styles.underline}>ide About M</span>e
+                    </h4>
+                ) : (
+                    <h4>
+                        R
+                        <span className={styles.underline}>
+                            ead More About M
+                        </span>
+                        e
+                    </h4>
+                )}
             </button>
 
             {isClicked ? <AboutMe /> : ""}
