@@ -39,6 +39,10 @@
     max-width: 90%;
     margin: 0;
 }
+.cfgimage {
+    visibility: hidden;
+    max-height: 0;
+}
 
 @media only screen and (min-width: 1024px) {
     .wrapper {
@@ -62,6 +66,13 @@
     .image {
         max-width: 70%;
         border-radius: 10px;
+    }
+
+    .cfgimage {
+        max-width: 50%;
+        border-radius: 10px;
+        visibility: visible;
+        max-height: 100%;
     }
 
     .headingfour {

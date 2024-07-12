@@ -42,6 +42,12 @@ function AboutMe() {
                             Algorithms, and Recursion
                         </strong>
                     </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sit ut natus tempore, provident suscipit dolorem cumque,
+                        sed amet voluptate molestiae corrupti mollitia ratione
+                        aliquid modi! Quia facere hic esse iste.
+                    </p>
                     <h5 className={styles.headingfour}>Grades</h5>
                     <p>
                         Foundation Exam: <strong>92%</strong>
@@ -58,7 +64,7 @@ function AboutMe() {
                     <img
                         src="images/CFGDegree-Logo-2-768x384.png"
                         alt="CFG Degree Logo"
-                        className={styles.image}
+                        className={styles.cfgimage}
                     />
                 </div>
             </div>
