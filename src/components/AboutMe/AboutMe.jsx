@@ -5,7 +5,9 @@ function AboutMe() {
         <>
             <div className={styles.skillsContainer}>
                 <div className={styles.technative}>
-                    <h4 className={styles.headingfour}>TechNative</h4>
+                    <h4 className={styles.headingfour}>
+                        TechNative Digital Academy
+                    </h4>
                     <p>
                         My time at TechNative has given me a solid understanding
                         of many technologies such as JavaScript, React, Redux,
@@ -18,7 +20,7 @@ function AboutMe() {
                         projects that were completed during my time (see below).
                     </p>
                     <img
-                        src="images/technative-project3.jpg"
+                        src="images/technative-everyonebutmostlychloe.jpg"
                         alt="The TechNative Gang"
                         className={styles.image}
                     />
@@ -53,6 +55,11 @@ function AboutMe() {
                     <p>
                         Final Group Project: <strong>84%</strong>
                     </p>
+                    <img
+                        src="images/CFGDegree-Logo-2-768x384.png"
+                        alt="CFG Degree Logo"
+                        className={styles.image}
+                    />
                 </div>
             </div>
 
