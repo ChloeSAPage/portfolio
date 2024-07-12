@@ -2,7 +2,8 @@
     width: 100%;
     color: var(--black);
     text-align: center;
-    padding: 1rem
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .tagline {
@@ -24,4 +25,32 @@
 
 .title {
     margin-top: 5rem;
+}
+
+.headingfour {
+    font-weight: bolder;
+}
+
+.subheading {
+    margin-top: 2rem;
+}
+
+.image {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .skillsContainer {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .technative {
+        width: 50%;
+    }
+
+    .cfg {
+        width: 50%;
+    }
 }
