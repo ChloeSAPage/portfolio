@@ -2,8 +2,8 @@
     width: 100%;
     color: var(--black);
     text-align: center;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .tagline {
@@ -36,11 +36,16 @@
 }
 
 .image {
-    max-width: 50%;
-    border-radius: 10px;
+    max-width: 90%;
+    margin: 0;
 }
 
 @media only screen and (min-width: 1024px) {
+    .wrapper {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
     .skillsContainer {
         display: flex;
         gap: 3rem;
@@ -52,5 +57,10 @@
 
     .cfg {
         width: 50%;
+    }
+
+    .image {
+        max-width: 70%;
+        border-radius: 10px;
     }
 }
