@@ -3,6 +3,7 @@ import styles from "./AboutMe.module.css";
 function AboutMe() {
     return (
         <>
+            <h2>T<span className={styles.underline}>echnical Skill</span>s</h2>
             <div className={styles.skillsContainer}>
                 <div className={styles.technative}>
                     <h4 className={styles.headingfour}>

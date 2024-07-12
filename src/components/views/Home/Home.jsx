@@ -36,7 +36,7 @@ function Home() {
                 A<span className={styles.underline}>bout M</span>e
             </h2>
             <p>
-                I'm a Junior Developer, with a background in microbiology. I
+                I'm a Junior Developer, with a BSc in microbiology. I
                 like making things.
             </p>
             <p>
