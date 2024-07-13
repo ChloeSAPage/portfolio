@@ -1,9 +1,9 @@
 import projectData from "../../../assets/project-data.json";
 import ProjectCard from "../../ProjectCard/ProjectCard";
 import { MdEmail } from "react-icons/md";
-import styles from "./Home.module.css";
 import { useState } from "react";
 import AboutMe from "../../AboutMe/AboutMe";
+import styles from "./Home.module.css";
 
 function Home() {
     const [isClicked, setIsClicked] = useState(false);
@@ -36,8 +36,8 @@ function Home() {
                 A<span className={styles.underline}>bout M</span>e
             </h2>
             <p>
-                I'm a Junior Developer, with a BSc in microbiology. I
-                like making things.
+                I'm a Junior Developer, with a BSc in microbiology. I like
+                making things.
             </p>
             <p>
                 I completed TechNative Academy's 16-week full-stack bootcamp and
@@ -60,7 +60,7 @@ function Home() {
                 )}
             </button>
 
-            {isClicked ? <AboutMe /> : ""}
+            <AboutMe isClicked={isClicked} />
 
             <h2 className={styles.title}>
                 C<span className={styles.underline}>ontact M</span>e

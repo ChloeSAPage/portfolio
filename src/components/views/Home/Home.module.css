@@ -22,6 +22,12 @@
     color: var(--black);
 }
 
+.hidden {
+    display: none;
+}
+
+
+
 @media only screen and (min-width: 1024px) {
     .wrapper {
         padding-left: 6rem;

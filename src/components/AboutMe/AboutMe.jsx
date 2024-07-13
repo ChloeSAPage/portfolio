@@ -1,9 +1,11 @@
 import styles from "./AboutMe.module.css";
 
-function AboutMe() {
+function AboutMe({ isClicked }) {
     return (
-        <>
-            <h2>T<span className={styles.underline}>echnical Skill</span>s</h2>
+        <div className={`${styles.aboutMe} ${isClicked ? "" : styles.hidden}`}>
+            <h2>
+                T<span className={styles.underline}>echnical Skill</span>s
+            </h2>
             <div className={styles.skillsContainer}>
                 <div className={styles.technative}>
                     <h4 className={styles.headingfour}>
@@ -83,7 +85,7 @@ function AboutMe() {
             <p>I like biology, specifically microbiology.</p>
             <p>I love learning new things!</p>
             <p>I like coding and problem solving.</p>
-        </>
+        </div>
     );
 }
 
