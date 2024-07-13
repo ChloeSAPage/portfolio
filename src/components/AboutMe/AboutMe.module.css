@@ -57,14 +57,16 @@
 
     .technative {
         width: 50%;
+        height: 100%;
     }
 
     .cfg {
         width: 50%;
+        height: 100%;
     }
 
     .image {
-        max-width: 70%;
+        max-width: 100%;
         border-radius: 10px;
     }
 
@@ -77,5 +79,19 @@
 
     .headingfour {
         margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .image {
+        max-width: 80%;
+        border-radius: 10px;
+    }
+
+    .cfgimage {
+        max-width: 50%;
+        border-radius: 10px;
+        visibility: visible;
+        max-height: 100%;
     }
 }
