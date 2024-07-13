@@ -15,21 +15,24 @@
 .navMenu a {
     color: var(--black);
     text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom-color 1s ease;
 }
 
-.navMenu a:hover {
+.navMenu a:hover,
+.navMenu a.activeLink:hover {
     color: var(--black);
     text-decoration: none;
     border-bottom: 3px solid var(--grey);
 }
 
-.hamburger {
-    display: none;
-}
-
-.activeLink {
+.navMenu a.activeLink {
     border-bottom: 3px solid var(--yellow);
     transition: border-bottom-color 1s ease;
+}
+
+.hamburger {
+    display: none;
 }
 
 /* Hide hamburger menu on mobile */
