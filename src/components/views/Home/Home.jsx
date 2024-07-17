@@ -1,9 +1,13 @@
 import projectData from "../../../assets/project-data.json";
 import ProjectCard from "../../ProjectCard/ProjectCard";
 import { MdEmail } from "react-icons/md";
+import { useState } from "react";
+import AboutMe from "../../AboutMe/AboutMe";
 import styles from "./Home.module.css";
 
 function Home() {
+    const [isClicked, setIsClicked] = useState(false);
+
     const projects = projectData.map((item, index) => {
         return (
             <ProjectCard
@@ -20,28 +24,45 @@ function Home() {
         );
     });
 
+    const showAboutMe = () => {
+        setIsClicked(!isClicked);
+    };
+
     return (
         <div className={styles.wrapper}>
-            <h1 className={styles.heading}>Hiya! My name is Chloe Page.</h1>
+            <h1>Hiya! My name is Chloe Page.</h1>
 
             <h2 className={styles.title}>
                 A<span className={styles.underline}>bout M</span>e
             </h2>
             <p>
-                I'm a Junior Developer, with a background in microbiology. I
-                like making things.
+                I'm a Junior Developer, with a BSc in microbiology. I like
+                making things.
             </p>
             <p>
-                I like playing video games (I've played League of Legends since
-                2014!) and watching E-sports
+                I completed TechNative Academy's 16-week full-stack bootcamp and
+                CodeFirstGirls Degree: Software Engineering concurrently.
             </p>
-            <p>I love nature and I started birdwatching early 2024</p>
-            <p>I enjoy hiking</p>
-            <p>I like biology, specifically microbiology.</p>
-            <p>I love learning new things!</p>
-            <p>I like coding and problem solving</p>
 
-            <h2 className={styles.title}>
+            <button onClick={() => showAboutMe()} className={styles.button}>
+                {isClicked ? (
+                    <h4>
+                        H<span className={styles.underline}>ide About M</span>e
+                    </h4>
+                ) : (
+                    <h4>
+                        R
+                        <span className={styles.underline}>
+                            ead More About M
+                        </span>
+                        e
+                    </h4>
+                )}
+            </button>
+
+            <AboutMe isClicked={isClicked} />
+
+            <h2 className={isClicked ? styles.title : ""}>
                 C<span className={styles.underline}>ontact M</span>e
             </h2>
             <p>Get in touch!</p>

@@ -2,26 +2,29 @@
     width: 100%;
     color: var(--black);
     text-align: center;
-    padding: 1rem
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-.tagline {
-    color: var(--yellow);
-    margin-bottom: 0;
-    font-weight: bolder;
-}
-
-.buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+.title {
+    margin-top: 5rem;
 }
 
 .underline {
     border-bottom: 2px solid var(--yellow);
 }
 
-.title {
-    margin-top: 5rem;
+.button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--black);
+}
+
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
 }

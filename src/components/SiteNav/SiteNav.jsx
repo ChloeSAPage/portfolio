@@ -5,11 +5,7 @@ import { HiMenu } from "react-icons/hi";
 import { FaTimes } from "react-icons/fa";
 
 function SiteNav() {
-    const navLinks = [
-        { label: "Home", url: "/" },
-        { label: "GitHub", url: "https://github.com/ChloeSAPage" },
-        { label: "LinkedIn", url: "https://www.linkedin.com/in/chloesapage/" },
-    ];
+    const navLinks = [{ label: "Home", url: "/" }];
 
     const [click, setClick] = useState(false);
     function handleClick() {
@@ -37,6 +33,20 @@ function SiteNav() {
                         {navLink.label}
                     </NavLink>
                 ))}
+                <a
+                    href="https://github.com/ChloeSAPage"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
+                    GitHub
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/chloesapage/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
+                    LinkedIn
+                </a>
             </nav>
             <div className={styles.hamburger} onClick={handleClick}>
                 {click ? (

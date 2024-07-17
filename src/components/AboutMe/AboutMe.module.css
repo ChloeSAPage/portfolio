@@ -1,0 +1,131 @@
+.wrapper {
+    width: 100%;
+    color: var(--black);
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.tagline {
+    color: var(--yellow);
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.underline {
+    border-bottom: 2px solid var(--yellow);
+}
+
+.title {
+    margin-top: 5rem;
+}
+
+.headingfour {
+    font-weight: bolder;
+}
+
+.subheading {
+    margin-top: 2rem;
+}
+
+.image {
+    max-width: 90%;
+    margin: 0;
+}
+
+.cfgimage {
+    visibility: hidden;
+    max-height: 0;
+}
+
+.aboutMe {
+    max-height: 100%;
+    opacity: 1;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    visibility: visible;
+}
+
+.hidden {
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.listsContainer {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 500px)  {
+    .listsContainer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .skillsContainer,
+    .listsContainer {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .technative,
+    .cfg,
+    .degree,
+    .hobbies {
+        width: 50%;
+        height: 100%;
+    }
+
+    .image {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .cfgimage {
+        max-width: 50%;
+        border-radius: 10px;
+        visibility: visible;
+        max-height: 100%;
+    }
+
+    .headingfour {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .image {
+        max-width: 80%;
+        border-radius: 10px;
+    }
+
+    .cfgimage {
+        max-width: 50%;
+        border-radius: 10px;
+        visibility: visible;
+        max-height: 100%;
+    }
+}

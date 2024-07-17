@@ -63,9 +63,21 @@ body {
     --h4-tablet: 20px/28px "Comfortaa", "Roboto", sans-serif;
     --h4-mobile: 16px/24px "Comfortaa", "Roboto", sans-serif;
 
+    --h5-desktop: 18px/24px "Comfortaa", "Roboto", sans-serif;
+    --h5-tablet: 18px/24px "Comfortaa", "Roboto", sans-serif;
+    --h5-mobile: 14px/20px "Comfortaa", "Roboto", sans-serif;
+
+    --h6-desktop: 16px/20px "Comfortaa", "Roboto", sans-serif;
+    --h6-tablet: 16px/20px "Comfortaa", "Roboto", sans-serif;
+    --h6-mobile: 12px/18px "Comfortaa", "Roboto", sans-serif;
+
     --p-desktop: 16px/24px "Comfortaa", "Roboto", sans-serif;
     --p-tablet: 16px/24px "Comfortaa", "Roboto", sans-serif;
     --p-mobile: 14px/20px "Comfortaa", "Roboto", sans-serif;
+
+    --strong-desktop: bold 16px/24px "Comfortaa", "Roboto", sans-serif;
+    --strong-tablet: bold 16px/24px "Comfortaa", "Roboto", sans-serif;
+    --strong-mobile: bold 14px/20px "Comfortaa", "Roboto", sans-serif;
 }
 
 /* Mobile Typography */
@@ -85,8 +97,20 @@ h4 {
     font: var(--h4-mobile);
 }
 
+h5 {
+    font: var(--h5-mobile);
+}
+
+h6 {
+    font: var(--h6-mobile);
+}
+
 p {
     font: var(--p-mobile);
+}
+
+strong {
+    font: var(--strong-mobile);
 }
 
 /* Tablet Typography */
@@ -107,8 +131,20 @@ p {
         font: var(--h4-tablet);
     }
 
+    h5 {
+        font: var(--h5-tablet);
+    }
+
+    h6 {
+        font: var(--h6-tablet);
+    }
+
     p {
         font: var(--p-tablet);
+    }
+
+    strong {
+        font: var(--strong-tablet);
     }
 }
 
@@ -130,8 +166,20 @@ p {
         font: var(--h4-desktop);
     }
 
+    h5 {
+        font: var(--h5-desktop);
+    }
+
+    h6 {
+        font: var(--h6-desktop);
+    }
+
     p {
         font: var(--p-desktop);
+    }
+
+    strong {
+        font: var(--strong-desktop);
     }
 }
 
