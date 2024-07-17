@@ -13,14 +13,18 @@ function AboutMe({ isClicked }) {
                     </h4>
                     <p>
                         My time at TechNative has given me a solid understanding
-                        of many technologies such as JavaScript, React, Redux,
-                        Node, Express, PostgreSQL, Mocha, Chai, Git and GitHub.
+                        of many technologies such as{" "}
+                        <strong>
+                            JavaScript, React, Redux, Node, Express, PostgreSQL,
+                            Mocha, Chai, Git and GitHub.
+                        </strong>{" "}
                         Culminating in a final fullstack PERN project.
                     </p>
                     <p>
-                        We followed Agile practices, having daily standups and
-                        retrospectives, which continued during the three group
-                        projects that were completed during my time (see below).
+                        I practised Agile methodologies through daily standups
+                        and retrospectives, which continued during the three
+                        group projects that were completed during my time (see
+                        below).
                     </p>
                     <img
                         src="images/technative-everyonebutmostlychloe.jpg"
@@ -37,19 +41,32 @@ function AboutMe({ isClicked }) {
                         with a <strong>94% </strong>
                         overall grade. During this microdegree we covered a vast
                         array of topics, namely:
-                        <strong>
-                            JavaScript, Python, MySQL, Git, GitHub, Debugging,
-                            Testing, Agile, APIs, Jira, Object Oriented
-                            Programming, Data Types (Stacks, Queues, Hash
-                            Tables, LinkedLists, Binary Trees, Graphs),
-                            Algorithms, and Recursion
+                        <strong className={styles.listsContainer}>
+                            <ul className={styles.list}>
+                                <li>Binary Trees</li>
+                                <li>Hash Tables</li>
+                                <li>LinkedLists</li>
+                                <li>Queues</li>
+                                <li>Graphs</li>
+                                <li>Stacks</li>
+                            </ul>
+                            <ul className={styles.list}>
+                                <li>Time-Space Complexity</li>
+                                <li>Algorithms</li>
+                                <li>Debugging</li>
+                                <li>Recursion</li>
+                                <li>Testing</li>
+                                <li>OOP</li>
+                            </ul>
+                            <ul className={styles.list}>
+                                <li>JavaScript</li>
+                                <li>MySQL</li>
+                                <li>Python</li>
+                                <li>APIs</li>
+                                <li>Jira</li>
+                                <li>Git</li>
+                            </ul>
                         </strong>
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Sit ut natus tempore, provident suscipit dolorem cumque,
-                        sed amet voluptate molestiae corrupti mollitia ratione
-                        aliquid modi! Quia facere hic esse iste.
                     </p>
                     <h5 className={styles.headingfour}>Grades</h5>
                     <p>
@@ -72,19 +89,38 @@ function AboutMe({ isClicked }) {
                 </div>
             </div>
 
-            <h3 className={styles.subheading}>
-                H<span className={styles.underline}>obbie</span>s
-            </h3>
-
-            <p>
-                I like playing video games (I've played League of Legends since
-                2014!) and watching Esports.
-            </p>
-            <p>I love nature and I started birdwatching early 2024.</p>
-            <p>I enjoy hiking.</p>
-            <p>I like biology, specifically microbiology.</p>
-            <p>I love learning new things!</p>
-            <p>I like coding and problem solving.</p>
+            <div className={styles.skillsContainer}>
+                <div className={styles.degree}>
+                    <h3 className={styles.subheading}>
+                        B
+                        <span className={styles.underline}>
+                            Sc Microbiology and my transition into tec
+                        </span>
+                        h
+                    </h3>
+                    <p>
+                        I have a 2.1 BSc in Microbiology from the University of
+                        Reading, where I studied complex biological topics. I
+                        loved this. I love learning new things, which is why I
+                        got into biology in the first place. There is always
+                        something new to learn every week in science.
+                    </p>
+                </div>
+                <div className={styles.hobbies}>
+                    <h3 className={styles.subheading}>
+                        H<span className={styles.underline}>obbie</span>s
+                    </h3>
+                    <p>
+                        I like playing video games (I've played League of
+                        Legends since 2014!) and watching Esports.
+                    </p>
+                    <p>I love nature and I started birdwatching early 2024.</p>
+                    <p>I enjoy hiking and nature in general.</p>
+                    <p>I like biology, specifically microbiology.</p>
+                    <p>I love learning new things!</p>
+                    <p>I like coding and problem solving.</p>
+                </div>
+            </div>
         </div>
     );
 }

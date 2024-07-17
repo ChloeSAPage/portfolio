@@ -65,21 +65,24 @@
         padding-right: 6rem;
     }
 
-    .skillsContainer {
+    .skillsContainer,
+    .listsContainer {
         display: flex;
         gap: 3rem;
     }
 
-    .technative {
+    .technative,
+    .cfg,
+    .degree,
+    .hobbies {
         width: 50%;
         height: 100%;
     }
 
-    .cfg {
-        width: 50%;
-        height: 100%;
+    .list {
+        width: 33%;
+        list-style-type: none;
     }
-
     .image {
         max-width: 100%;
         border-radius: 10px;
