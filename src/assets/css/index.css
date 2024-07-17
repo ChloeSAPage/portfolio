@@ -74,6 +74,10 @@ body {
     --p-desktop: 16px/24px "Comfortaa", "Roboto", sans-serif;
     --p-tablet: 16px/24px "Comfortaa", "Roboto", sans-serif;
     --p-mobile: 14px/20px "Comfortaa", "Roboto", sans-serif;
+
+    --strong-desktop: bold 16px/24px "Comfortaa", "Roboto", sans-serif;
+    --strong-tablet: bold 16px/24px "Comfortaa", "Roboto", sans-serif;
+    --strong-mobile: bold 14px/20px "Comfortaa", "Roboto", sans-serif;
 }
 
 /* Mobile Typography */
@@ -105,6 +109,10 @@ p {
     font: var(--p-mobile);
 }
 
+strong {
+    font: var(--strong-mobile);
+}
+
 /* Tablet Typography */
 @media only screen and (min-width: 768px) {
     h1 {
@@ -133,6 +141,10 @@ p {
 
     p {
         font: var(--p-tablet);
+    }
+
+    strong {
+        font: var(--strong-tablet);
     }
 }
 
@@ -164,6 +176,10 @@ p {
 
     p {
         font: var(--p-desktop);
+    }
+
+    strong {
+        font: var(--strong-desktop);
     }
 }
 

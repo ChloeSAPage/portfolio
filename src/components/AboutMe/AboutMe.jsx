@@ -41,33 +41,34 @@ function AboutMe({ isClicked }) {
                         with a <strong>94% </strong>
                         overall grade. During this microdegree we covered a vast
                         array of topics, namely:
-                        <strong className={styles.listsContainer}>
-                            <ul className={styles.list}>
-                                <li>Binary Trees</li>
-                                <li>Hash Tables</li>
-                                <li>LinkedLists</li>
-                                <li>Queues</li>
-                                <li>Graphs</li>
-                                <li>Stacks</li>
-                            </ul>
-                            <ul className={styles.list}>
-                                <li>Time-Space Complexity</li>
-                                <li>Algorithms</li>
-                                <li>Debugging</li>
-                                <li>Recursion</li>
-                                <li>Testing</li>
-                                <li>OOP</li>
-                            </ul>
-                            <ul className={styles.list}>
-                                <li>JavaScript</li>
-                                <li>MySQL</li>
-                                <li>Python</li>
-                                <li>APIs</li>
-                                <li>Jira</li>
-                                <li>Git</li>
-                            </ul>
-                        </strong>
                     </p>
+                    <strong className={styles.listsContainer}>
+                        <ul className={styles.list}>
+                            <li>Binary Trees</li>
+                            <li>Hash Tables</li>
+                            <li>LinkedLists</li>
+                            <li>Queues</li>
+                            <li>Graphs</li>
+                            <li>Stacks</li>
+                        </ul>
+                        <ul className={styles.list}>
+                            <li>Time-Space Complexity</li>
+                            <li>Algorithms</li>
+                            <li>Debugging</li>
+                            <li>Recursion</li>
+                            <li>Testing</li>
+                            <li>OOP</li>
+                        </ul>
+                        <ul className={styles.list}>
+                            <li>JavaScript</li>
+                            <li>MySQL</li>
+                            <li>Python</li>
+                            <li>APIs</li>
+                            <li>Jira</li>
+                            <li>Git</li>
+                        </ul>
+                    </strong>
+
                     <h5 className={styles.headingfour}>Grades</h5>
                     <p>
                         Foundation Exam: <strong>92%</strong>
