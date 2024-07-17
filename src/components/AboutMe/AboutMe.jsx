@@ -105,6 +105,22 @@ function AboutMe({ isClicked }) {
                         got into biology in the first place. There is always
                         something new to learn every week in science.
                     </p>
+                    <p>
+                        However, when I started working in industry I quickly
+                        realised that things I loved about bio at uni were
+                        absent in commercial labs. Commercial labs focus on
+                        repetitive testing and quick results, leaving little
+                        room for creativity, experimentation, or continuous
+                        learning.
+                    </p>
+                    <p>
+                        This craving for creativity, experimentation, and
+                        learning led me to tech! Where my hunger for doing new
+                        things, learning new skills and creating new things is
+                        satisfied. Since embarking on my journey I haven't
+                        looked back and am so glad I've made the leap from lab
+                        to keyboard.
+                    </p>
                 </div>
                 <div className={styles.hobbies}>
                     <h3 className={styles.subheading}>
@@ -114,11 +130,17 @@ function AboutMe({ isClicked }) {
                         I like playing video games (I've played League of
                         Legends since 2014!) and watching Esports.
                     </p>
-                    <p>I love nature and I started birdwatching early 2024.</p>
-                    <p>I enjoy hiking and nature in general.</p>
-                    <p>I like biology, specifically microbiology.</p>
+                    <p>
+                        I enjoy hiking and last year I went hiking at Brecon
+                        Beacons in Wales, and the Peak District.
+                    </p>
+                    <p>
+                        I love nature and I started birdwatching early 2024. I
+                        hope to see a Cuckoo one day!
+                    </p>
+                    <p>I still like biology, specifically microbiology.</p>
+                    <p>I like coding to solve problems.</p>
                     <p>I love learning new things!</p>
-                    <p>I like coding and problem solving.</p>
                 </div>
             </div>
         </div>
