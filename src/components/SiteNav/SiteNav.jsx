@@ -5,9 +5,7 @@ import { HiMenu } from "react-icons/hi";
 import { FaTimes } from "react-icons/fa";
 
 function SiteNav() {
-    const navLinks = [
-        { label: "Home", url: "/" }
-    ];
+    const navLinks = [{ label: "Home", url: "/" }];
 
     const [click, setClick] = useState(false);
     function handleClick() {

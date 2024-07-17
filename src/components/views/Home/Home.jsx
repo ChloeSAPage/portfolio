@@ -62,7 +62,7 @@ function Home() {
 
             <AboutMe isClicked={isClicked} />
 
-            <h2 className={styles.contactMe}>
+            <h2 className={isClicked ? styles.title : ""}>
                 C<span className={styles.underline}>ontact M</span>e
             </h2>
             <p>Get in touch!</p>
