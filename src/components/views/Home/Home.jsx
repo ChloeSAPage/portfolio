@@ -47,13 +47,17 @@ function Home() {
             <button onClick={() => showAboutMe()} className={styles.button}>
                 {isClicked ? (
                     <h4>
-                        H<span className={styles.underline}>ide About M</span>e
+                        H
+                        <span className={styles.buttonunderline}>
+                            ide About M
+                        </span>
+                        e
                     </h4>
                 ) : (
                     <h4>
-                        R
-                        <span className={styles.underline}>
-                            ead More About M
+                        C
+                        <span className={styles.buttonunderline}>
+                            lick Here to Read More About M
                         </span>
                         e
                     </h4>

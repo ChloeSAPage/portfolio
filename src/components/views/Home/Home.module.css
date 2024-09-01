@@ -14,12 +14,21 @@
     border-bottom: 2px solid var(--yellow);
 }
 
+.buttonunderline {
+    border-bottom: 2px solid var(--yellow);
+    transition: border-bottom-color 0.5s ease;
+}
+
 .button {
     background: none;
     border: none;
     padding: 0;
     cursor: pointer;
     color: var(--black);
+}
+
+.buttonunderline:hover {
+    border-bottom: 2px solid var(--grey);
 }
 
 @media only screen and (min-width: 1024px) {

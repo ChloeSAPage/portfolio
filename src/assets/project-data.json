@@ -51,6 +51,16 @@
         "tags": ["cfg"]
     },
     {
+        "projectName": "OSRS Lookup",
+        "description": "A CLI application that utilises the Old School RuneScape API, which enables the user to look up a player and find their in-game statistics. This project was created for the Code First Girls Degree, this project got 100%.",
+        "githubLink": "https://github.com/ChloeSAPage/OSRS-Lookup",
+        "link": "",
+        "image": "images/osrs_lookup.png",
+        "languages": "Python",
+        "libraries": "",
+        "tags": ["cfg"]
+    },
+    {
         "projectName": "Poro Dress Up",
         "description": "A cute web app inspired by flash dress up games. Dress up a poro from League Of Legends. Made for the Code First Girls Degree, this project got 100%.",
         "githubLink": "https://github.com/ChloeSAPage/Poro-Dress-Up",
