@@ -47,6 +47,13 @@ function SiteNav() {
                 >
                     LinkedIn
                 </a>
+                <a
+                    href="https://chloesapage.medium.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
+                    Medium
+                </a>
             </nav>
             <div className={styles.hamburger} onClick={handleClick}>
                 {click ? (
